@@ -1,0 +1,152 @@
+body {
+    margin: 15px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 10px;
+}
+
+button {
+    width: 177px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: rgb(238, 224, 224);
+}
+
+input {
+    width: 30%;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 12px;
+}
+
+#peso-atual + span {
+    margin-right: 25px;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#cabecalho {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    justify-content: center;
+    background-color: lightpink;
+}
+
+#calc-peso {
+    background-color: lightblue;
+    margin-bottom: 10px;
+    padding: 10px 0 20px 0;
+}
+
+
+#calc-imc {
+    background-color: lightgreen;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 10px 0 20px 0;
+}
+
+
+#rodape {
+    background-color: lightsteelblue;
+    position: relative;
+    padding-top: 5px;
+    height: 40px;
+    bottom: calc(-100% + 40px);
+    margin-bottom: 0;
+}
+
+.erro {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+#calc {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#limpar {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 900px) { 
+    div {
+        width: 70%;
+        text-align: center;
+        white-space: nowrap;
+        margin: 0 auto;
+
+    }
+
+    #cabecalho {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 10px 0;
+        margin-bottom: 10px;
+        justify-content: center;
+        background-color: lightpink;
+        width: 49%;
+    }
+
+    #rodape {
+        background-color: lightsteelblue;
+        position: absolute;
+        padding-top: 0;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 0;
+        width: 100%;
+        border-radius: 0px;
+
+    }
+
+    #principal {
+        margin-top: 25px;
+    }
+ }
