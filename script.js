@@ -5,6 +5,7 @@
             
             let peso = document.querySelector("#peso-atual");
             let altura = document.querySelector("#altura-atual");
+            let historico = document.querySelector("#historico");
 
             if (peso.value != "" || peso.value != false) {
                 peso.style.boxShadow = "none";
@@ -26,8 +27,10 @@
                             for (let i = 0; i < erros.length; i++) {
                                 erros[i].innerText = ""
                             }
+                            historico.innerHTML = "<div>"+imc+"</div>";
                             altura.style.boxShadow = "none";
                             peso.style.boxShadow = "none";
+
                             
                         }
                     }
