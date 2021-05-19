@@ -27,7 +27,7 @@
                             for (let i = 0; i < erros.length; i++) {
                                 erros[i].innerText = ""
                             }
-                            historico.innerHTML = "<div>"+imc+"</div>";
+                            // historico.innerHTML = "<div>"+imc+"</div>";
                             altura.style.boxShadow = "none";
                             peso.style.boxShadow = "none";
 
@@ -49,10 +49,12 @@
             document.querySelector("#resultado").innerText = "As informações sobre seu imc aparecerão aqui"
         });
 
+
+
     }
 
     function resultadoImc(imc) {
-
+        
         let html = "<p>Seu IMC é de "+imc+"</p>";
 
         if (imc < 16) {

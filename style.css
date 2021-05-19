@@ -156,7 +156,7 @@ a:active {
         margin-top: 25px;
     }
 
-    #historico {
+    /* #historico {
         background-color: lightsteelblue;
         position: absolute;
         left: calc(80% - 10px);
@@ -165,5 +165,5 @@ a:active {
         height: 533px;
         display: block;
 
-    }
+    } */
  }
